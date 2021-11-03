@@ -1,0 +1,42 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+div#allPanels {
+  display: grid;
+  grid-template-columns: 600px 200px;
+  gap: 16px;
+}
+
+div#welcomePanel {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 80%;
+}
+
+div#enrolledCourses, div#assignments {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+div#enroll {
+  display: flex; 
+  justify-content: flex-end;
+}
+
+div#assignmentsPanel {
+  margin-top: 232px;
+}
+
+div#assignments {
+  height: 158px;
+}
+
+div#filterByClassPanel {
+  display: flex; 
+  justify-content: center;
+}

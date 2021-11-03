@@ -1,0 +1,59 @@
+div#allPanels {
+  display: grid;
+  grid-template-columns: 200px 600px;
+  gap: 16px;
+}
+
+div#homePanel {
+  display: flex;
+  justify-content: center;
+}
+
+div#searchCoursesPanel input {
+  width: 100%;
+}
+
+div#currentEnrolledCoursesPanel h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+div#currentEnrolledCoursesPanel ul, div#currentEnrolledCoursesPanel ul li {
+  border: 1px solid black;
+}
+
+div#currentEnrolledCoursesPanel ul {
+  margin-top: 0px;
+  list-style-position:inside;
+  padding-inline-start: 0px;
+  height: 200px;
+}
+
+div#currentEnrolledCoursesPanel ul a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+div#currentEnrolledCoursesPanel ul li {
+  padding: 4px;
+}
+
+div#coursesPanel{
+  margin-top: 73px;
+}
+
+table#coursesTable {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding-bottom: 32px;
+}
+
+input#filterButton {
+  display: block;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: 108px;
+}

@@ -1,0 +1,37 @@
+div#searchBar {
+  margin-top: 8px;
+}
+
+input#searchInput {
+  width: 750px;
+}
+
+div#mainPanel {
+  margin-top: 16px;
+
+  display: grid;
+  grid-template-columns: 200px 600px 200px;
+  gap: 16px;
+}
+
+div#filterByPanel, div#searchResultsPanel, div#viewByPanel, div#viewPanel {
+  padding: 8px;
+
+  border: 1px solid black;
+}
+
+div#searchResultsPanel {
+  height: 400px;
+}
+
+div#viewByPanel {
+  height: 200px;
+}
+
+div#viewOptions {
+  margin-top: 8px;
+}
+
+div h2 {
+  text-align: center;
+}
